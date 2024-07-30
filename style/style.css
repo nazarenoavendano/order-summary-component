@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: auto;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px; /* Ajusta según tus necesidades */
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.img {
+    height: auto;
+    width: auto;
+    object-fit: fill;
+}
