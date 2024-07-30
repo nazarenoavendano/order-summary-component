@@ -7,7 +7,11 @@
     margin: 0%;
     padding: 0%;
     height: 100%;
-    width: auto;
+    background-image: url('../images/pattern-background-desktop.svg');
+
+    background-size: 100%; /* Ajusta según tus necesidades: cover, contain, etc. */
+    background-position: initial;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .card {
@@ -20,8 +24,7 @@
   border-radius: 10px;
 }
 
-.img {
+.div-img img {
+    max-width: 100%;
     height: auto;
-    width: auto;
-    object-fit: fill;
 }
