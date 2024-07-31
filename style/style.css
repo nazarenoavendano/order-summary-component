@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Red-Hat';
+    src: url('../fonts/Red_Hat_Display/static/RedHatDisplay-Medium.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
-    box-sizing: content-box;
-    font-family: sans-serif; 
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    font-family: 'Red-Hat', sans-serif;
+    font-size: 16px;
+    
 }
 
 .container {
@@ -19,9 +29,7 @@
 .card {
     height: auto;
     width: 100%;
-    max-width: 375px; /* Ajusta según tus necesidades */
-    /* margin: 0%;
-    padding: 0%; */
+    max-width: 375px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 15px;
@@ -48,18 +56,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
     flex-direction: column;
+}
+
+.title {
+    font-size: 1.7em;    
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.text {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
 }
 
 .div-plan {
     margin: 5%;
     border-radius: 15px;
-    background-color: rgb(245, 238, 238);
+    background-color: hsl(225, 100%, 98%);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: auto;
+}
+
+.plan-mini-txt {
+    font-weight: 900;
 }
 
 .div-btn {
@@ -77,9 +100,10 @@
     height: 50px;
     border: none;
     border-radius: 15px;
-
+    font-weight: 700;
 }
 
 .btn-blue {
-    background-color: blue;
+    color: #f2f2f2;
+    background-color: hsl(245, 75%, 52%);
 }
