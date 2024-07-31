@@ -103,9 +103,14 @@
     border: none;
     border-radius: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-blue {
     color: #f2f2f2;
     background-color: hsl(245, 75%, 52%);
+}
+
+.btn-white {
+    background-color: #f2f2f2;
 }
