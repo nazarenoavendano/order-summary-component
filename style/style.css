@@ -20,7 +20,7 @@
 
     background-color: hsl(225, 100%, 98%);
     
-    height: 100%;
+    height: 95vh;
     background-image: url('../images/pattern-background-desktop.svg');
 
     background-size: 100%; /* Ajusta según tus necesidades: cover, contain, etc. */
@@ -52,12 +52,13 @@
 }
 
 .div-info {
+    padding: 0%;
     width: auto;
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     flex-direction: column;
 }
@@ -66,9 +67,13 @@
     font-size: 1.7em;    
     font-weight: 900;
     letter-spacing: 1.5px;
+    padding: 0%;
+    margin: 0%;
 }
 
 .text {
+    padding: 0%;
+    margin-top: 15px;
     font-weight: 500;
     color: hsl(224, 23%, 55%);
 }
@@ -80,7 +85,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: auto;
+    height: 70px;
 }
 
 .plan-mini-txt {
@@ -98,8 +103,9 @@
 }
 
 .btn {
-    width: 300px;
-    height: 50px;
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
     border: none;
     border-radius: 15px;
     font-weight: 700;
@@ -112,5 +118,6 @@
 }
 
 .btn-white {
-    background-color: #f2f2f2;
+    margin-top: 2px;
+    background-color: hsl(225, 100%, 98%);
 }
