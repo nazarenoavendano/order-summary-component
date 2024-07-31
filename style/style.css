@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0%;
-    padding: 0%;
+    box-sizing: content-box;
+    font-family: sans-serif; 
 }
 
 .container {
-    margin: 0%;
-    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     height: 100%;
     background-image: url('../images/pattern-background-desktop.svg');
 
@@ -17,16 +17,54 @@
 }
 
 .card {
-  width: 100%;
-  max-width: 380px; /* Ajusta según tus necesidades */
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  border-radius: 10px;
+    height: auto;
+    width: 100%;
+    max-width: 330px; /* Ajusta según tus necesidades */
+    /* margin: 0%;
+    padding: 0%; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.div-img {
+    max-width: 100%;
+    
 }
 
 .div-img img {
-    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.div-plan {
+    margin: 5%;
+    border-radius: 15px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: auto;
+}
+
+.div-btn {
+    width: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+}
+
+.btn-blue {
+    background-color: blue;
 }
