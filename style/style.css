@@ -10,7 +10,11 @@
     box-sizing: border-box;
     font-family: 'Red-Hat', sans-serif;
     font-size: 16px;
-    
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
 }
 
 .container {
@@ -88,6 +92,7 @@
     height: 70px;
 }
 
+
 .plan-mini-txt {
     font-weight: 900;
 }
@@ -120,4 +125,16 @@
 .btn-white {
     margin-top: 2px;
     background-color: hsl(225, 100%, 98%);
+}
+
+
+/* switch image if the with change */
+
+@media (max-width: 500px) {
+    .container {
+        background-image: url('../images/pattern-background-mobile.svg');
+        background-size: 100%; /* Ajusta según tus necesidades: cover, contain, etc. */
+        background-position: initial;
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
 }
